@@ -20,10 +20,13 @@ cd ~
 cd ws
 mkdir edu-monitoring
 cd edu-monitoring
+git init
 npm init -y
 mkdir routes
 curl -L https://gist.github.com/miwashiab/560c59105116df6b728e2057457c246a/raw/server.js -o server.js
-curl -L https://gist.github.com/miwashiab/560c59105116df6b728e2057457c246a/raw/server.js -o ./routes/healthcheck.js
+curl -L https://gist.github.com/miwashiab/3bb79a44d694664b46a31c8645aa816e/raw/healthcheck.js -o ./routes/healthcheck.js
+curl -L https://gist.github.com/miwashiab/3378fc2e4ab5d2691fa5978822721796/raw/.gitignore -o .gitignore
+
 npm install express --save
 npm install healthcheck --save
 npm install nodemon --save-dev
@@ -31,5 +34,7 @@ npm install nodejs-health-checker
 npm pkg set main="server.js"
 npm pkg set scripts.start="node server.js" 
 npm pkg set scripts.dev="nodemon server.js" 
+git add .
+git commit -m "Initial Commit"
 code .
 ```
