@@ -8,10 +8,12 @@
 
 ## Node packages for monitoring
 
-(healthcheck)[https://www.npmjs.com/package/healthcheck]  
-(nodejs-health-checker)[https://www.npmjs.com/package/nodejs-health-checker]  
-(Nodejs Healthcheck)[https://www.npmjs.com/package/@hmcts/nodejs-healthcheck]  
+[healthcheck](https://www.npmjs.com/package/healthcheck)  
+[nodejs-health-checker](https://www.npmjs.com/package/nodejs-health-checker)  
+[Nodejs Healthcheck](https://www.npmjs.com/package/@hmcts/nodejs-healthcheck)  
 
+
+## Instructions
 
 ```bash
 cd ~
