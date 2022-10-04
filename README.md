@@ -4,6 +4,8 @@
 
 > Monitoring is an important part of internet development. Monitoring services offer automated systems to check the health of your systems and also monitor for attacks and other unhealthy states.
 
+[Pingdom](https://www.pingdom.com/product/uptime-monitoring/)  
+
 [PC Magazine about monitoring services](https://uk.pcmag.com/migrated-46739-onlinecloud-backup-services/72231/the-best-website-monitoring-services-for-2020)  
 
 ## Node packages for monitoring
